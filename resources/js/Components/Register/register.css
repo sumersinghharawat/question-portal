@@ -1,0 +1,23 @@
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.register-form{
+    border-radius: 10px;
+    padding: 5% 5%;
+    text-align: center;
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+@media(max-width: 768px){
+    .main-section{
+        height: 95vh;
+    }
+    .register-form{
+        width: 100% !important;
+    }
+}
